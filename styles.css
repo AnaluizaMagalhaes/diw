@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #3fa300d5;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #555;
+  transition: all 0.3s ease;
+}
+
+.filters {
+  width: 30%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.social-icons a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.2);
+}
+
+.social-icons i {
+  transition: all 0.3s ease;
+}
+
+.container {
+  display: flex;
+}
+
+.logo-img {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.green {
+  background-color: rgb(88, 140, 88);
+}
+
+.img-tam {
+  width: 150px;
+}
+
+.card {
+  background: rgba(3, 94, 20, 0.778);
+  height: 100%;
+}
+
+.img {
+  width: 200px;
+}
+.right {
+  display: right;
+  text-align: right;
+  align-items: right;
+}
+
+#page-container {
+  min-height: 100%;
+}
+
+.content-wrap {
+  padding-bottom: 60px;
+}
+
+
+
+.cards, .card-container  {
+    display: flex;
+    justify-content: center;
+}
